@@ -1,0 +1,72 @@
+.header{
+    background-color:bisque;   
+    border: 3px solid cadetblue;
+    opacity: 93%;
+    
+}
+
+ h1{
+    color: #bc2e1e;  
+    font-family: "Lucida Console", "Courier New", monospace;
+    opacity: 100%;
+ }
+
+ body {
+    text-align: center;
+    /* background-color:cornsilk; */
+    background-image: url("background.jpg");
+    
+}
+
+
+.ans,.btn-container,.restart,.start {
+    cursor: pointer;
+    background-color:bisque;
+    height: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 3px solid cadetblue;
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.ans:hover,.restart:hover,.start:hover {
+
+    background-color:darksalmon;
+
+
+}
+
+.btn-container{
+    display: none;
+    height: unset;
+    
+}
+
+.restart {
+    display: none;
+}
+
+img{
+    height: 400px;
+    width: 500px;
+    border: 3px solid cadetblue;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+.modal {
+    background-color: bisque;
+    display:none;
+    position: absolute;
+    border: 3px solid cadetblue;
+    top:10px;
+    right: 10px;
+    padding: 5px;
+    width: 300px;
+}
+
